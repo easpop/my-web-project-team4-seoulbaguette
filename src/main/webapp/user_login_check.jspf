@@ -1,0 +1,14 @@
+<%@page import="com.itwill.bakery.service.UserService"%>
+<%@page import="com.itwill.bakery.vo.User"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String sUserId=(String)session.getAttribute("s_u_id");
+	if(sUserId==null){
+		response.sendRedirect("bakery_main.jsp");
+		return;
+		}
+	UserService sUserService = new UserService();
+	User sUser = sUserService.selectUser(sUserId);
+%>  
+

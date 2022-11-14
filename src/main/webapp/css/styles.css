@@ -1,0 +1,72 @@
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+html, body {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font: 76% arial, sans-serif;
+	font-family: 'S-CoreDream-3Light';
+	text-align: center
+}
+
+
+
+a {
+	padding: 5px;
+	text-decoration: none;
+	color: #000000;
+}
+
+
+
+/***************** menu start****************/
+/***************** menu end****************/
+
+
+div#container {
+	text-align: left
+}
+
+div#content p {
+	line-height: 1.4
+}
+
+
+div#footer {
+	height: 100px;
+	background-color: #F3F2ED;
+	background: #fff url('../image/hs_footer.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 15%
+}
+
+div#footer p {
+	margin: 0;
+	padding: 60px 0px 0px 0px;
+}
+
+div#container {
+	width: 750px;
+	margin: 0 auto
+}
+
+div#wrapper {
+	margin-left: 0px;
+	width: 100%
+}
+
+div#content {
+	margin: 0 0 0 0px
+}
+
+div#footer {
+	clear: left;
+	width: 100%
+}
